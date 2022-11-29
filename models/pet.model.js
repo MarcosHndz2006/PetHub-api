@@ -2,11 +2,6 @@ const mongoose = require('mongoose');
 const schema = mongoose.Schema;
 
 const petSchema = new schema({
-    id:{
-        type: Number,
-        trim: true,
-        required: true
-    },
     name:{
         type:String,
         trim:true,
